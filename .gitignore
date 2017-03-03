@@ -1,0 +1,15 @@
+Authority_Company/bin
+Authority_Company/obj
+Authority_Proxy/bin
+Authority_Proxy/obj
+Demo/bin
+Demo/obj
+Modeling/bin
+Modeling/obj
+ModelingLib/obj
+ModelingLib/bin
+RegLib/bin
+RegLib/obj
+test/bin
+test/obj
+*.suo

@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="aaeee86e-a530-4787-ab53-f8c10acd4de6"
+  name="RegLib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="6bf9aa71-17ef-4e50-8cd7-5bef74cba17a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegLib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="56768840-7cc9-4f65-a852-5e4975e38976"
+        name="clsRegInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a5f1c93b-a12d-4eda-9d54-61b08c8c15f6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DclsRegInfo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b369d2de-06e8-4467-8e36-eec027e6d1ab"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb930cd1-5232-4757-8a43-94e05682cfab">
+                <propertyInstance
+                  Id="ba51f0ee-1af3-42be-9ca9-e5801b5b368b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="95bfbefd-5001-4191-8f6e-637d6f065725">
+                <propertyInstance
+                  Id="bc952652-0a8b-4249-a156-9f85315132ec"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aed2f7c8-28d4-4ef6-a5bb-451b8fd7a340">
+                <propertyInstance
+                  Id="42b7c145-ea42-417b-9a4c-2d8c8bbb5f9c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="205e957c-691d-487d-94c2-520f3e080b93">
+                <propertyInstance
+                  Id="b55cc98c-181f-40e7-b924-042d222716b2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c7f4147-2b66-4cf5-bcf3-8dae6c3300e3">
+                <propertyInstance
+                  Id="ff7e97f7-7a3e-4d21-aab5-1de4116c8580"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="59b72cde-c790-4587-a6be-522ef128e296"
+        name="EncryptDecrypt"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c18d7e96-d347-4dc1-af44-aa1dde6b01fd"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b265ae23-4ab0-41db-87d1-39940e80a1df"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fcb531dd-fe75-4793-acc8-24916fa3d5de">
+                <propertyInstance
+                  Id="98cf73ca-e628-44b9-9f9d-bfdc90a574c7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e2d3caa-3ddf-4175-a6b0-8d6d90941729">
+                <propertyInstance
+                  Id="772ca5fd-cf45-4bbf-bc67-f6f0a80d9a46"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7a95699-ad66-4919-a966-7ca239b36f95">
+                <propertyInstance
+                  Id="77f75301-3631-48ab-85eb-bb41884eb8e3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74fc38a6-8341-4095-ad3b-4a8c0cb430c9">
+                <propertyInstance
+                  Id="b405c3ca-47ec-4c0f-8632-fd03ce7f8c65"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3d0b858-e981-4b95-a4cf-ff3e813cf02f">
+                <propertyInstance
+                  Id="31290020-42b0-4105-bfdc-fda03d3c76fb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="145b8184-9dc5-4c4c-9cf4-f1df04505a54"
+            name="DESDecrypt"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b54e9d32-87b6-4499-83f5-dcb579835bad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESDecrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1f98d4a4-eb24-4fc5-9bdf-5c28ff61880a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6be82831-c5c3-42a7-857b-abd711636ce5">
+                    <propertyInstance
+                      Id="c93ada08-71a5-4b8f-b79c-6ead7020b2d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3688b568-cddd-4af0-aca0-11b8a0a33676">
+                    <propertyInstance
+                      Id="909eb240-e669-4cfd-a29c-2ef34e619dac"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb2d2d39-7f27-4b59-95f4-8971051b7781">
+                    <propertyInstance
+                      Id="d94bc1e5-d340-44ce-8872-1c5ba4fa6b7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46e9fa72-115f-4194-b23f-9e8f55eef7e2">
+                    <propertyInstance
+                      Id="885337c2-9a8e-4567-9380-8dc4d5f3310a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9525796-1b23-459d-bd3d-e04354866394">
+                    <propertyInstance
+                      Id="4ba9d889-3907-4f4e-9e35-9e67a786e948"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f110aa5b-0e98-43ad-a95c-bd14b76ea898">
+                    <propertyInstance
+                      Id="527402ac-c8ae-448d-a4a3-3174fda291d1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ef976da-c526-42b5-97c9-064b788215af"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85d11913-f339-4ab0-88f3-29bf41139747"
+                  name="pToDecrypt"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ac5ae610-bdbf-4a40-9d76-c43301727497"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESDecrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpToDecrypt"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b3364838-e211-478f-834f-38d6840c7fc2"
+                  name="pKey"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="02756469-487a-445c-a90c-4747d5a5efd8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESDecrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpKey"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e6d812ad-b0ac-4cb2-b36d-4ae367627828"
+            name="DESEncrypt"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="823ec787-4c95-4763-bac7-e2f488da04e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESEncrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3b8371a7-02af-425e-bcc2-0a8139ece604"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6d5faa9-1427-404e-989f-b94b6c64dd29">
+                    <propertyInstance
+                      Id="c210434a-02f4-45f1-9653-2da51aa654f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9093342-57fd-41e6-a997-b9d57b609e49">
+                    <propertyInstance
+                      Id="ba078171-212f-45d3-88f6-ab29b9394bd5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09775ebf-ee2d-4252-9814-bc361189bcd0">
+                    <propertyInstance
+                      Id="cda5d5f7-111a-43da-8265-ad7f3fcc2adc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56ce7e69-61a0-4098-8e14-8e30d54b28a2">
+                    <propertyInstance
+                      Id="b662e3a4-7ac7-4daf-9217-7324ea79dddf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a965398d-8e07-4799-b55e-50ab2df6478f">
+                    <propertyInstance
+                      Id="47777329-e26b-4c54-9411-b48f0097905b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a13cdfd-9d9d-4d0b-880d-dd7dbca8aa02">
+                    <propertyInstance
+                      Id="5ce18a46-0d18-4bb0-b011-18024a062f8b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f0108c22-e695-49cc-b874-3080f87df137"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18886538-65ac-4ce7-9439-0e819e968ed7"
+                  name="pToEncrypt"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c09ec2fa-2da0-4e93-9148-01df357fb9cf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESEncrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpToEncrypt"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d38a72b-4384-4cee-b676-dbe0e0fe0b39"
+                  name="pKey"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="89f70fda-a475-4f8b-b0b8-715caea3a705"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DDESEncrypt OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpKey"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dd4adfbc-5d11-40e5-a705-c6664be5836b"
+            name="ExportRegFile"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="64d82e1f-1bcd-4ca0-af81-52739b27b40d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DExportRegFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DclsRegInfo)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5199c152-4655-4872-a376-b9d069d171e7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb493d8c-f713-4193-a25a-e05dd5d2307c">
+                    <propertyInstance
+                      Id="daad77c2-54fa-4248-9a0b-793fefc9c0cc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1cb61e4-5074-4e47-92e8-c4598349f959">
+                    <propertyInstance
+                      Id="11558272-b58e-4123-9a82-05c94fab844b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b338bb2-39ff-4a88-9ca7-b87738c7d10a">
+                    <propertyInstance
+                      Id="1f829ccf-3081-49c1-b453-6b78509eee20"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26219e64-5a06-4357-8f1c-ed5a48fe0afa">
+                    <propertyInstance
+                      Id="a8e84574-dd9e-4ae0-a30d-d77e30e5ed11"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="660d7b9c-1977-42bd-ac4e-573aba4b276d">
+                    <propertyInstance
+                      Id="6a9e7b5e-3716-487a-8153-e9665c50c60f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="894ea2c0-d608-4cbc-a5ae-a44cea317e63">
+                    <propertyInstance
+                      Id="f5961dfa-ec1f-46c0-8f1c-801d06d0d9f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="33efdb82-5999-4b4a-b296-0a230a8daa5a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e06febc2-ff42-4f70-af6b-fe0af39144ea"
+                  name="RegInfo"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dd8fa7b3-53e1-4662-9b42-ebe75a8d55ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DExportRegFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DclsRegInfo)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DRegInfo"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="56768840-7cc9-4f65-a852-5e4975e38976"
+                      LastKnownName="clsRegInfo"
+                      LastKnownLocation="Package_1152.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2d3f45bf-8c08-4809-b4b2-93383817f0a5"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="978efa3e-4a71-45c1-a6d9-8a49c775b7c7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DExportRegFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DclsRegInfo)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8f7ee639-0f19-4fe8-8970-480499f4958b"
+            name="LoadRegFile"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c0202e65-6ddf-4483-9677-65f7492ef7b7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DLoadRegFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="77046a46-8c91-4b63-916c-3ff5f1cd5255"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fa05aaa-11e9-4c71-8354-56c864bbdd5c">
+                    <propertyInstance
+                      Id="cd63dc7e-5f7b-4a9b-a7c1-814d55f5a603"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d06a71cf-64ef-4b39-b6de-6fdd7c3c312c">
+                    <propertyInstance
+                      Id="eafd09e0-1fb0-4e46-a7ff-62641c2308e5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcae505a-2ad6-482b-ac03-7e95be4ae4b9">
+                    <propertyInstance
+                      Id="0ac6b3d4-a169-485b-b345-4ee37eefc537"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="690599a3-ef3e-4077-bcca-b278055d47af">
+                    <propertyInstance
+                      Id="c58c62f4-8d51-4fd5-9936-f00881caeafc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faae4cd5-9c99-4963-9f1b-8090d7456270">
+                    <propertyInstance
+                      Id="c70bbe79-6e03-4c2f-ac60-312c07be6a73"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a1bd5af-3fe6-49fe-a74e-6623d48dfd3c">
+                    <propertyInstance
+                      Id="6d6eb703-9802-4f09-a70a-fc8f96d5a9ea"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e4e3638a-5e85-4361-8e7e-583c434524a9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="56768840-7cc9-4f65-a852-5e4975e38976"
+                      LastKnownName="clsRegInfo"
+                      LastKnownLocation="Package_1152.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="340d4cd6-8655-4bb4-bbc4-05c1a7cd8637"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="23128119-8915-491d-94ac-409da46bc818"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DLoadRegFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c6fd9a1d-aa83-468b-b3ba-da73324eb6ad"
+            name="MD5"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6e4a44db-c739-4137-8977-17dde078204c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DMD5 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b39f7d5-6c23-4484-baaa-7c376259cfde"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5df46f0-8d6a-4471-b113-da1a5c327168">
+                    <propertyInstance
+                      Id="79e0f453-0721-40f1-8e8f-afba3c7aa371"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ae529ad-75ff-4f35-a939-3c1481a80a21">
+                    <propertyInstance
+                      Id="a0b9605b-78d5-4278-bd79-70028107fe08"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe1d3e3c-b365-4871-871b-08bf45e5d267">
+                    <propertyInstance
+                      Id="8d137bd5-89df-49bb-9c32-d930750c9b2d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e8fa17d-76a3-42d3-8c66-378a6fd24a0e">
+                    <propertyInstance
+                      Id="65dfff9c-342f-45cf-b41a-8d1497b18f54"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f26d70fa-2d60-49df-acc1-faaddebe777f">
+                    <propertyInstance
+                      Id="d6079462-744a-4d26-a304-416a5a67d679"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf776557-b39f-4d53-b4b2-14fc3a861989">
+                    <propertyInstance
+                      Id="7c60bf73-b1a7-47cc-baea-839e90c1395c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="964831e0-2109-4081-88b0-31ea0659d3df"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ce6b589a-4e6e-4cbe-ba8a-63a8ad34d0d8"
+                  name="pToEncrypt"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="26ecff5e-8f4f-4dff-a534-7020151d2e7f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D(Name%3DMD5 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DpToEncrypt"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9e88a03b-fef2-46ea-b7ee-5659d0c1347a"
+            name="EncryptDecrypt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fbbbc9c8-5e0c-428d-be6e-677894d2f863"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b69f4572-9c32-4f81-a540-62cf04de1db9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33d72257-2d2f-45e5-a61f-dc724ca01efb">
+                    <propertyInstance
+                      Id="82143ec6-cfa3-41c2-9aa1-9554ef5112a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c74086e-9a82-47f6-bb9d-7da41cac2bbe">
+                    <propertyInstance
+                      Id="273477b4-9ac5-412d-a04b-ce9757df7114"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a92bb6d4-05be-4e3a-9152-dc6076b473c3">
+                    <propertyInstance
+                      Id="fdf58599-9318-4f1a-b7dd-655c364325e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5973491-24e4-4330-8742-92a5d854fdd6">
+                    <propertyInstance
+                      Id="69a7412f-922f-4904-a7b5-634991efd75c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b355e2d-54fc-4577-b687-a6732cb4dc4e">
+                    <propertyInstance
+                      Id="7b1f5dcf-3719-4214-9dc8-90571fa2b1e0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb58caa6-e7ef-4044-8a26-62a024dcc1ca">
+                    <propertyInstance
+                      Id="ea84f6a4-f8b3-4f19-8bbe-9f5d3ef0c603"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9906155b-4c93-48e5-bd44-c2fec6384a87"
+            name="GetCPUID"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3efbf29-ae1e-4edc-9649-ab63d35a4c97"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3DGetCPUID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a75b237e-979c-4394-8618-ac3003453f2a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e85c20e3-bd02-44fc-b3e7-de2dcdd9ce06">
+                    <propertyInstance
+                      Id="f0008683-be9e-4f17-84bb-7e46a2ec9f34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5264e5b-4f41-46cc-ac91-3fd2cc4853d8">
+                    <propertyInstance
+                      Id="d9ff67d7-04e5-46cf-8f02-85d00172d8fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e97ea40c-ec9b-49fc-af52-23ce830e5617">
+                    <propertyInstance
+                      Id="b587c1f2-64ca-461a-a769-21187844f6d2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15b73f8a-7cc0-46da-8aaa-ed2b8b545bf8">
+                    <propertyInstance
+                      Id="60965823-dde1-4a24-b8a3-a46f8a41ba6c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d82f88c8-044f-488f-afb9-d87fd6f6da0f">
+                    <propertyInstance
+                      Id="0dff6c2f-d8ef-4d4f-86d5-7549cc50ce3d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ff5d1c1-7dbe-4f73-8013-72586a6ca1fe">
+                    <propertyInstance
+                      Id="b6075c1a-d5eb-44bb-b49c-e7391ec4ef59"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1737870-62c4-411a-8ea4-709c40fe42ae"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d4b269f2-6241-406c-9fdb-01a1869f372a"
+            name="GetID"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2baf2298-2c61-4ba7-8d76-7a4607d5d854"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3DGetID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e7c427f3-760f-440b-a9a5-4bafd7ab2aff"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="179d028f-048a-43ad-998b-5f5c153c54ef">
+                    <propertyInstance
+                      Id="bcceba7a-acd5-4735-bab2-0a2fe50e58dd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6ffa1ee-4894-4522-a220-502cf73feefa">
+                    <propertyInstance
+                      Id="e320aff1-25b3-4b24-9d17-d67643a846e8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fe34e86-b51e-483e-b427-250fc49ccfdf">
+                    <propertyInstance
+                      Id="d03a92a1-6186-4d2d-93dc-9624fb232027"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bf188e0-bbc2-42a5-8832-732d311f7ebc">
+                    <propertyInstance
+                      Id="652d55c7-e08f-472a-bca8-f484bb225206"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea558877-84ea-46b7-b922-8c1d24c57f18">
+                    <propertyInstance
+                      Id="039c4b02-09ec-4ada-93fe-2c907e33a806"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d1bd396-fc52-4528-891a-c0dfbc4e893b">
+                    <propertyInstance
+                      Id="f1351aa2-9c08-4c8f-b8b5-5da7726d7a84"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2a3124dc-81af-42fb-a3d4-18aef674c304"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1481bc71-e612-430b-a0ba-e76195656f02"
+            name="GetMacID"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="621b4db3-76df-46a4-86ac-dd7591eaf57d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3DGetMacID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b5c6ed0-d28d-48c5-bdab-dc277085cb0c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8574625-fdcc-4a41-98b0-5929c772da67">
+                    <propertyInstance
+                      Id="8b32a080-92e5-4a54-b91f-aaeb8585798e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5714d279-d9ee-4299-8c14-b39527d56fd3">
+                    <propertyInstance
+                      Id="3e2fdd25-d08d-45c1-bcb6-5b5e722b7b03"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f3951a6-6461-4200-8960-d8c17c32d910">
+                    <propertyInstance
+                      Id="fe5abd9a-6ca2-4265-b5d2-d14ef0a2ec43"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30d5f2e7-35d5-4a45-bde2-68fd8abae9d9">
+                    <propertyInstance
+                      Id="fcec454e-6efa-4e97-8e0f-c9e56806166c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d794715e-f401-4a0a-8660-48e94eaedd3e">
+                    <propertyInstance
+                      Id="287618ad-1e41-474d-aade-7675bc8516ec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3fdeb4a-686e-4ee9-9d2f-e1fda733eedb">
+                    <propertyInstance
+                      Id="3b32c4dc-84b3-4764-8517-6971fcc2935a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="50a3b2a0-af2a-4bfe-9654-a4e25e3bc176"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6dee5294-19c5-4e4c-9033-2a2ed7c6cf24"
+            name="GetMotherBoardID"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9c66ff44-27c7-4f37-b27f-13d750763c52"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Ff:%2Fdata%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fauthority%2FRegLib%2Fbin%2FDebug%2FRegLib.dll&quot; Namespace%3DRegLib Type%3DEncryptDecrypt Member%3DGetMotherBoardID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="80036f78-93fe-4432-9166-5611135c5da4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec9200c1-85d8-4592-ab39-5b86a5b0c230">
+                    <propertyInstance
+                      Id="b10e960c-d12a-4143-97e0-7f91f50ebec6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ede59997-a0fa-4a53-a0da-262665beeec3">
+                    <propertyInstance
+                      Id="25cc5fe1-ed54-4b9b-bc5e-e03507394cd9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e52c6fb2-fe13-4465-ad14-b9964832d5e1">
+                    <propertyInstance
+                      Id="c1ea2900-00e1-453c-b616-4a5a9876c403"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45440ebf-aa7b-4a68-8eef-7e5acf27e903">
+                    <propertyInstance
+                      Id="c300ca50-df22-4ed9-939c-ab2f8765f170"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a97396bd-c0fb-485d-b9da-df0e7e1f7b3b">
+                    <propertyInstance
+                      Id="b5539d33-d411-4d6a-a538-0b7d8f1a3283"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa24f169-419c-4483-a9b6-2f74acac42af">
+                    <propertyInstance
+                      Id="32f40ee0-32cb-4a7a-8d18-df7940f6bc3d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cce6a246-8cb3-4931-bb95-4fd7e7707050"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

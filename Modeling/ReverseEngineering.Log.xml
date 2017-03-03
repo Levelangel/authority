@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///G:/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="代码生成/文本转换记录">
+  <MessageClass Name="Message" Label="消息" Option="显示提供相关信息的消息" />
+  <MessageClass Name="Warning" Label="警告" Option="显示警告" />
+  <MessageClass Name="Error" Label="错误" Option="显示错误" />
+  <MessageClass Name="Property" Label="属性" Option="显示元数据" />
+  <MessageClass Name="Diagnostic" Label="消息" Option="显示诊断消息" />
+  <Message Timestamp="2016-11-14T11:53:30" Importance="High" Text="已启动反向工程。" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Boolean”-  (PrimitiveType)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib”-  (Package)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中:  “Modeling::RegLib::clsRegInfo”-  (Class)   (已进行部分反向工程 - 定义未更新) " />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Medium" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt”-  (Class)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESDecrypt”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESDecrypt::pKey”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESDecrypt::pToDecrypt”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESEncrypt”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESEncrypt::pKey”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::DESEncrypt::pToEncrypt”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::EncryptDecrypt”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::ExportRegFile”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::ExportRegFile::path”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::ExportRegFile::RegInfo”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::GetCPUID”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::GetID”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::GetMacID”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::GetMotherBoardID”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::LoadRegFile”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::LoadRegFile::path”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::MD5”-  (Operation)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “Modeling::RegLib::EncryptDecrypt::MD5::pToEncrypt”-  (Parameter)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="Diagnostic" Text="已将以下元素反向工程到 UML 模型中: “String”-  (PrimitiveType)" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="High" Text="已对(1)个类型进行完全反向工程。" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="High" Text="已对(1)个类型进行部分反向工程。  这些类型未包含在原始选定内容中，因此未对其整个定义进行反向工程。  相反，此浅表操作只确保这些类型存在于 UML 模型中，因为需要用它们来完全描述其他元素。" />
+  <Message Timestamp="2016-11-14T11:53:32" Importance="High" Text="反向工程操作已完成，出现了(0)个错误和(0)个警告。" />
+</Log>

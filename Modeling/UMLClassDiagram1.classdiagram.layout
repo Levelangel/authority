@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="f285a2b5-5ffb-41d1-b3ea-26df2a292f9d" />
+  <nestedChildShapes>
+    <classShape Id="c389e7fb-9ccd-4acb-b2e3-5d517ff16990" absoluteBounds="9, 0.625, 1.5, 1.6210677083333338" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="c3c02b7e-e3cf-4823-9059-c6434123b988" LastKnownName="clsRegInfo" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="7c4e373c-f824-44b2-b9e2-6cf51c009640" absoluteBounds="9.015, 1.1526692708333335, 1.4700000000000002, 0.75708007812500011" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="66ae49a9-7665-4874-a637-ebf9ee2be572" absoluteBounds="9.015, 1.9197493489583335, 1.4700000000000002, 0.226318359375" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cf847874-c25e-4658-ba17-cd451ccedd8f" absoluteBounds="1.75, 0.75, 3.625, 2.8595117187499994" hideQualifiedName="false" increaseHeight="0.20650390625" customColor="181, 193, 223">
+      <classMoniker Id="ec8392b9-0de3-4ad6-96d4-671084aad0c7" LastKnownName="EncryptDecrypt" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="e3c7f3e8-2543-417f-b0d1-0e9870f55e32" absoluteBounds="1.765, 1.2776692708333335, 3.5949999999999998, 0.226318359375" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="b5d8a8c4-642d-4286-b1da-3a15a3435436" absoluteBounds="1.765, 1.5139876302083333, 3.5949999999999998, 1.9955240885416665" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
